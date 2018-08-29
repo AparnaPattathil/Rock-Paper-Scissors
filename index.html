@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Roshambo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Roshambo</h1>
+        <a href="about.html">About</a>
+    </header>
+
+    <p id="instruction">Start the game. Make your move!!!</p>
+
+    <div class="options">
+        <div class="option" id="rock">
+            <img src="images/rock.png" alt="rock">
+        </div>
+        <div class="option" id="paper">
+            <img src="images/paper.png" alt="paper">
+        </div>
+        <div class="option" id="scissors">
+            <img src="images/scissors.png" alt="scissor">
+        </div>
+    </div>
+    <aside>
+        <div class="score-board">
+            <h2>Score</h2>
+            <div class="score" id="user"> USer <br> <span id="user_score">0</span>
+            </div>
+            <div class="score" id="computer">Computer <br> <span id="computer_score">0</span>
+            </div>
+        </div>
+    </aside>
+    <div class="result">
+        <p>Paper covers rock. You win!!!!</p>
+    </div>
+    <script></script>
+    <script src='./jasmine/src/game.js' charset="utf-8"></script>
+</body>
+
+</html>
